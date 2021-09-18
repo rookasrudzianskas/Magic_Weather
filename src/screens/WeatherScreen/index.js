@@ -1,7 +1,4 @@
-/**
- * @file Magic Weather screen.
- * @author Vadim Savin
- */
+
 
 import React, { useState } from 'react';
 import { View, Text, Pressable, Alert } from 'react-native';
