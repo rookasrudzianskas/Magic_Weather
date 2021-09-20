@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* MagicWeatherRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MagicWeatherRNTests.m */; };
+		00E356F31AD99517003FC87E /* rokasweatherappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rokasweatherappTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		51BCD8D20687537868A001F7 /* libPods-MagicWeatherRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A57967CFE44C9D2D73EC2992 /* libPods-MagicWeatherRN.a */; };
+		51BCD8D20687537868A001F7 /* libPods-rokasweatherapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A57967CFE44C9D2D73EC2992 /* libPods-rokasweatherapp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		DA8CBBA9850BBF5B1077898F /* libPods-MagicWeatherRN-MagicWeatherRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FB249058C556FE2623D475 /* libPods-MagicWeatherRN-MagicWeatherRNTests.a */; };
+		DA8CBBA9850BBF5B1077898F /* libPods-rokasweatherapp-rokasweatherappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FB249058C556FE2623D475 /* libPods-rokasweatherapp-rokasweatherappTests.a */; };
 		DD83EF2E25D0877600FAFBD4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD83EF2D25D0877600FAFBD4 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,34 +23,34 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = MagicWeatherRN;
+			remoteInfo = rokasweatherapp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* MagicWeatherRNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicWeatherRNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* rokasweatherappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rokasweatherappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* MagicWeatherRNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicWeatherRNTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* MagicWeatherRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicWeatherRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MagicWeatherRN/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MagicWeatherRN/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MagicWeatherRN/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MagicWeatherRN/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MagicWeatherRN/main.m; sourceTree = "<group>"; };
-		208816B4F676B39F3471B0ED /* Pods-MagicWeatherRN-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicWeatherRN-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MagicWeatherRN-tvOSTests/Pods-MagicWeatherRN-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		46C97818896520F4F4B3A64E /* Pods-MagicWeatherRN-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicWeatherRN-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MagicWeatherRN-tvOSTests/Pods-MagicWeatherRN-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4ED1E90829EEFE00CCE20B44 /* Pods-MagicWeatherRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicWeatherRN.debug.xcconfig"; path = "Target Support Files/Pods-MagicWeatherRN/Pods-MagicWeatherRN.debug.xcconfig"; sourceTree = "<group>"; };
-		54A55D504468D193417D548D /* Pods-MagicWeatherRN-MagicWeatherRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicWeatherRN-MagicWeatherRNTests.debug.xcconfig"; path = "Target Support Files/Pods-MagicWeatherRN-MagicWeatherRNTests/Pods-MagicWeatherRN-MagicWeatherRNTests.debug.xcconfig"; sourceTree = "<group>"; };
-		66034B12C0C9F41B24A6F435 /* Pods-MagicWeatherRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicWeatherRN.release.xcconfig"; path = "Target Support Files/Pods-MagicWeatherRN/Pods-MagicWeatherRN.release.xcconfig"; sourceTree = "<group>"; };
-		7FD1E0F8F20CD379DE3A5E07 /* Pods-MagicWeatherRN-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicWeatherRN-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MagicWeatherRN-tvOS/Pods-MagicWeatherRN-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MagicWeatherRN/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83EFDF8E2E8A8008720A6B0A /* libPods-MagicWeatherRN-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicWeatherRN-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		95FB249058C556FE2623D475 /* libPods-MagicWeatherRN-MagicWeatherRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicWeatherRN-MagicWeatherRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A57967CFE44C9D2D73EC2992 /* libPods-MagicWeatherRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicWeatherRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A62AA2C2D93DDCA6C0E87EE5 /* Pods-MagicWeatherRN-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicWeatherRN-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MagicWeatherRN-tvOS/Pods-MagicWeatherRN-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		A99341F09A7F2A2470461DA9 /* Pods-MagicWeatherRN-MagicWeatherRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicWeatherRN-MagicWeatherRNTests.release.xcconfig"; path = "Target Support Files/Pods-MagicWeatherRN-MagicWeatherRNTests/Pods-MagicWeatherRN-MagicWeatherRNTests.release.xcconfig"; sourceTree = "<group>"; };
-		AC5496C94CAEC907C7801E49 /* libPods-MagicWeatherRN-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicWeatherRN-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* rokasweatherappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rokasweatherappTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* rokasweatherapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rokasweatherapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rokasweatherapp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = rokasweatherapp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rokasweatherapp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rokasweatherapp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rokasweatherapp/main.m; sourceTree = "<group>"; };
+		208816B4F676B39F3471B0ED /* Pods-rokasweatherapp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rokasweatherapp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-rokasweatherapp-tvOSTests/Pods-rokasweatherapp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		46C97818896520F4F4B3A64E /* Pods-rokasweatherapp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rokasweatherapp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-rokasweatherapp-tvOSTests/Pods-rokasweatherapp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4ED1E90829EEFE00CCE20B44 /* Pods-rokasweatherapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rokasweatherapp.debug.xcconfig"; path = "Target Support Files/Pods-rokasweatherapp/Pods-rokasweatherapp.debug.xcconfig"; sourceTree = "<group>"; };
+		54A55D504468D193417D548D /* Pods-rokasweatherapp-rokasweatherappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rokasweatherapp-rokasweatherappTests.debug.xcconfig"; path = "Target Support Files/Pods-rokasweatherapp-rokasweatherappTests/Pods-rokasweatherapp-rokasweatherappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66034B12C0C9F41B24A6F435 /* Pods-rokasweatherapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rokasweatherapp.release.xcconfig"; path = "Target Support Files/Pods-rokasweatherapp/Pods-rokasweatherapp.release.xcconfig"; sourceTree = "<group>"; };
+		7FD1E0F8F20CD379DE3A5E07 /* Pods-rokasweatherapp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rokasweatherapp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-rokasweatherapp-tvOS/Pods-rokasweatherapp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rokasweatherapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83EFDF8E2E8A8008720A6B0A /* libPods-rokasweatherapp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rokasweatherapp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FB249058C556FE2623D475 /* libPods-rokasweatherapp-rokasweatherappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rokasweatherapp-rokasweatherappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57967CFE44C9D2D73EC2992 /* libPods-rokasweatherapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rokasweatherapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62AA2C2D93DDCA6C0E87EE5 /* Pods-rokasweatherapp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rokasweatherapp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-rokasweatherapp-tvOS/Pods-rokasweatherapp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A99341F09A7F2A2470461DA9 /* Pods-rokasweatherapp-rokasweatherappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rokasweatherapp-rokasweatherappTests.release.xcconfig"; path = "Target Support Files/Pods-rokasweatherapp-rokasweatherappTests/Pods-rokasweatherapp-rokasweatherappTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC5496C94CAEC907C7801E49 /* libPods-rokasweatherapp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rokasweatherapp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD83EF2D25D0877600FAFBD4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA8CBBA9850BBF5B1077898F /* libPods-MagicWeatherRN-MagicWeatherRNTests.a in Frameworks */,
+				DA8CBBA9850BBF5B1077898F /* libPods-rokasweatherapp-rokasweatherappTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51BCD8D20687537868A001F7 /* libPods-MagicWeatherRN.a in Frameworks */,
+				51BCD8D20687537868A001F7 /* libPods-rokasweatherapp.a in Frameworks */,
 				DD83EF2E25D0877600FAFBD4 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,13 +77,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* MagicWeatherRNTests */ = {
+		00E356EF1AD99517003FC87E /* rokasweatherappTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* MagicWeatherRNTests.m */,
+				00E356F21AD99517003FC87E /* rokasweatherappTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = MagicWeatherRNTests;
+			path = rokasweatherappTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -94,7 +94,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* MagicWeatherRN */ = {
+		13B07FAE1A68108700A75B9A /* rokasweatherapp */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -105,20 +105,20 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = MagicWeatherRN;
+			name = rokasweatherapp;
 			sourceTree = "<group>";
 		};
 		16AB2EA533F2351836F53BBA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4ED1E90829EEFE00CCE20B44 /* Pods-MagicWeatherRN.debug.xcconfig */,
-				66034B12C0C9F41B24A6F435 /* Pods-MagicWeatherRN.release.xcconfig */,
-				54A55D504468D193417D548D /* Pods-MagicWeatherRN-MagicWeatherRNTests.debug.xcconfig */,
-				A99341F09A7F2A2470461DA9 /* Pods-MagicWeatherRN-MagicWeatherRNTests.release.xcconfig */,
-				A62AA2C2D93DDCA6C0E87EE5 /* Pods-MagicWeatherRN-tvOS.debug.xcconfig */,
-				7FD1E0F8F20CD379DE3A5E07 /* Pods-MagicWeatherRN-tvOS.release.xcconfig */,
-				46C97818896520F4F4B3A64E /* Pods-MagicWeatherRN-tvOSTests.debug.xcconfig */,
-				208816B4F676B39F3471B0ED /* Pods-MagicWeatherRN-tvOSTests.release.xcconfig */,
+				4ED1E90829EEFE00CCE20B44 /* Pods-rokasweatherapp.debug.xcconfig */,
+				66034B12C0C9F41B24A6F435 /* Pods-rokasweatherapp.release.xcconfig */,
+				54A55D504468D193417D548D /* Pods-rokasweatherapp-rokasweatherappTests.debug.xcconfig */,
+				A99341F09A7F2A2470461DA9 /* Pods-rokasweatherapp-rokasweatherappTests.release.xcconfig */,
+				A62AA2C2D93DDCA6C0E87EE5 /* Pods-rokasweatherapp-tvOS.debug.xcconfig */,
+				7FD1E0F8F20CD379DE3A5E07 /* Pods-rokasweatherapp-tvOS.release.xcconfig */,
+				46C97818896520F4F4B3A64E /* Pods-rokasweatherapp-tvOSTests.debug.xcconfig */,
+				208816B4F676B39F3471B0ED /* Pods-rokasweatherapp-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -129,10 +129,10 @@
 				DD83EF2D25D0877600FAFBD4 /* StoreKit.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				A57967CFE44C9D2D73EC2992 /* libPods-MagicWeatherRN.a */,
-				95FB249058C556FE2623D475 /* libPods-MagicWeatherRN-MagicWeatherRNTests.a */,
-				83EFDF8E2E8A8008720A6B0A /* libPods-MagicWeatherRN-tvOS.a */,
-				AC5496C94CAEC907C7801E49 /* libPods-MagicWeatherRN-tvOSTests.a */,
+				A57967CFE44C9D2D73EC2992 /* libPods-rokasweatherapp.a */,
+				95FB249058C556FE2623D475 /* libPods-rokasweatherapp-rokasweatherappTests.a */,
+				83EFDF8E2E8A8008720A6B0A /* libPods-rokasweatherapp-tvOS.a */,
+				AC5496C94CAEC907C7801E49 /* libPods-rokasweatherapp-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,9 +147,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* MagicWeatherRN */,
+				13B07FAE1A68108700A75B9A /* rokasweatherapp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* MagicWeatherRNTests */,
+				00E356EF1AD99517003FC87E /* rokasweatherappTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				16AB2EA533F2351836F53BBA /* Pods */,
@@ -162,8 +162,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* MagicWeatherRN.app */,
-				00E356EE1AD99517003FC87E /* MagicWeatherRNTests.xctest */,
+				13B07F961A680F5B00A75B9A /* rokasweatherapp.app */,
+				00E356EE1AD99517003FC87E /* rokasweatherappTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,9 +171,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* MagicWeatherRNTests */ = {
+		00E356ED1AD99517003FC87E /* rokasweatherappTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MagicWeatherRNTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rokasweatherappTests" */;
 			buildPhases = (
 				F436D596ECA98CF40CCCBAFB /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -186,14 +186,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = MagicWeatherRNTests;
-			productName = MagicWeatherRNTests;
-			productReference = 00E356EE1AD99517003FC87E /* MagicWeatherRNTests.xctest */;
+			name = rokasweatherappTests;
+			productName = rokasweatherappTests;
+			productReference = 00E356EE1AD99517003FC87E /* rokasweatherappTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* MagicWeatherRN */ = {
+		13B07F861A680F5B00A75B9A /* rokasweatherapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MagicWeatherRN" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rokasweatherapp" */;
 			buildPhases = (
 				29378987E43BAFCDDC71BAF8 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -207,9 +207,9 @@
 			);
 			dependencies = (
 			);
-			name = MagicWeatherRN;
-			productName = MagicWeatherRN;
-			productReference = 13B07F961A680F5B00A75B9A /* MagicWeatherRN.app */;
+			name = rokasweatherapp;
+			productName = rokasweatherapp;
+			productReference = 13B07F961A680F5B00A75B9A /* rokasweatherapp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MagicWeatherRN" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rokasweatherapp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -242,8 +242,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* MagicWeatherRN */,
-				00E356ED1AD99517003FC87E /* MagicWeatherRNTests */,
+				13B07F861A680F5B00A75B9A /* rokasweatherapp */,
+				00E356ED1AD99517003FC87E /* rokasweatherappTests */,
 			);
 		};
 /* End PBXProject section */
@@ -297,7 +297,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MagicWeatherRN-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-rokasweatherapp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -310,7 +310,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MagicWeatherRN/Pods-MagicWeatherRN-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-rokasweatherapp/Pods-rokasweatherapp-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -351,7 +351,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagicWeatherRN/Pods-MagicWeatherRN-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rokasweatherapp/Pods-rokasweatherapp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9620D8ED7D2822A7CD11167B /* [CP] Copy Pods Resources */ = {
@@ -360,7 +360,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MagicWeatherRN-MagicWeatherRNTests/Pods-MagicWeatherRN-MagicWeatherRNTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-rokasweatherapp-rokasweatherappTests/Pods-rokasweatherapp-rokasweatherappTests-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -401,7 +401,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagicWeatherRN-MagicWeatherRNTests/Pods-MagicWeatherRN-MagicWeatherRNTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rokasweatherapp-rokasweatherappTests/Pods-rokasweatherapp-rokasweatherappTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F436D596ECA98CF40CCCBAFB /* [CP] Check Pods Manifest.lock */ = {
@@ -419,7 +419,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MagicWeatherRN-MagicWeatherRNTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-rokasweatherapp-rokasweatherappTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -452,7 +452,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* MagicWeatherRNTests.m in Sources */,
+				00E356F31AD99517003FC87E /* rokasweatherappTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +470,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* MagicWeatherRN */;
+			target = 13B07F861A680F5B00A75B9A /* rokasweatherapp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -478,14 +478,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54A55D504468D193417D548D /* Pods-MagicWeatherRN-MagicWeatherRNTests.debug.xcconfig */;
+			baseConfigurationReference = 54A55D504468D193417D548D /* Pods-rokasweatherapp-rokasweatherappTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MagicWeatherRNTests/Info.plist;
+				INFOPLIST_FILE = rokasweatherappTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -495,17 +495,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicWeatherRN.app/MagicWeatherRN";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rokasweatherapp.app/rokasweatherapp";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A99341F09A7F2A2470461DA9 /* Pods-MagicWeatherRN-MagicWeatherRNTests.release.xcconfig */;
+			baseConfigurationReference = A99341F09A7F2A2470461DA9 /* Pods-rokasweatherapp-rokasweatherappTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = MagicWeatherRNTests/Info.plist;
+				INFOPLIST_FILE = rokasweatherappTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -515,20 +515,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicWeatherRN.app/MagicWeatherRN";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rokasweatherapp.app/rokasweatherapp";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4ED1E90829EEFE00CCE20B44 /* Pods-MagicWeatherRN.debug.xcconfig */;
+			baseConfigurationReference = 4ED1E90829EEFE00CCE20B44 /* Pods-rokasweatherapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = MagicWeatherRN/Info.plist;
+				INFOPLIST_FILE = rokasweatherapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -536,7 +536,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.revenuecat.sampleapp.reactnative;
-				PRODUCT_NAME = MagicWeatherRN;
+				PRODUCT_NAME = rokasweatherapp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -545,13 +545,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66034B12C0C9F41B24A6F435 /* Pods-MagicWeatherRN.release.xcconfig */;
+			baseConfigurationReference = 66034B12C0C9F41B24A6F435 /* Pods-rokasweatherapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = MagicWeatherRN/Info.plist;
+				INFOPLIST_FILE = rokasweatherapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -559,7 +559,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.revenuecat.sampleapp.reactnative;
-				PRODUCT_NAME = MagicWeatherRN;
+				PRODUCT_NAME = rokasweatherapp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -681,7 +681,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MagicWeatherRNTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rokasweatherappTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -690,7 +690,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MagicWeatherRN" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rokasweatherapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -699,7 +699,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MagicWeatherRN" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rokasweatherapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

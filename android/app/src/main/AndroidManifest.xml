@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.magicweatherreactnative">
+  package="com.rokasweatherapp">
 
     <application
       android:name=".MainApplication"
